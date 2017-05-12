@@ -1,0 +1,11 @@
+[
+	{
+		"menuCode":"100",
+  		"menuName":"基础信息管理",
+  		"menuPic":"icon-base",
+  		"children":[
+			{"menuCode":"101","menuName":"测试增删改查","menuUrl":"test/list.jsp", "width":"1000","height":"800","maximizable":true,"param":{"iconCls":"icon-check","text":"我晕","reset":false},"openMode":"dialog"},
+				{"menuCode":"102","menuName":"电子教学日志信息管理","menuUrl":"classrecord/list.jsp","openMode":"dialog"}
+		]
+	}
+]

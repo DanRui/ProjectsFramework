@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑", "黑体";
+	font-size: 14px;	
+}
+
+body{background:#3f9df4;}
+#back_login{background:url(../images/back_login.jpg) no-repeat center;width:1024px;height:715px;margin:0 auto;position:relative;}
+.login{position:absolute;top:310px;left:550px;width:250px;}
+.login p{color:#084e97;padding:10px 0;float:left;height:25px;line-height:25px;width:250px;}
+.login p span{width:64px;display:block;float:left;}
+.login p .check{background:url(../images/check_bg.png) no-repeat;display:block;width:64px;height:25px;float:right;margin-right:9px;}
+.login p .logining{display:block;background:url(../images/login_bg.png) no-repeat;width:100px;height:36px;float:left;text-decoration:none;color:#fff;font-weight:bold;line-height:36px;text-align:center;}
+.login p .look_for{display:block;background:url(../images/login_bg.png) no-repeat;width:100px;height:36px;float:left;margin-left:35px;text-decoration:none;color:#fff;font-weight:bold;line-height:36px;text-align:center;}
+.login p .pass{float:left;border:1px solid #12adff;height:24px;width:70px;}
+.login-input{
+	border:1px solid #12adff;height:24px;width:180px;
+}
+
+.valid-code{
+	width: 110px; height: 26px;
+}
+
+.footer{position:absolute;top:600px;left:310px;color:#fff;}
+
+.login-error {
+	position: absolute;
+	top: 490px;
+	left: 550px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.login-error ul {
+	margin: 0;
+	padding: 0;
+}
+
+.login-error label {
+	color: #ff0000;
+}
+
+.login-error span {
+	color: #ff0000;
+}
+
+.actionMessage ul,li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
